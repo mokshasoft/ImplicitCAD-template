@@ -4,6 +4,6 @@ import DoubleSpiral
 import MagicDice
 
 main :: IO ()
-main =
+main = do
     runMagicDice
-    --runDoubleSpiral
+    runDoubleSpiral

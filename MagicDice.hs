@@ -55,4 +55,4 @@ magicDice s  =
 
 runMagicDice :: IO ()
 runMagicDice =
-    writeSTL 1 "helloworld.stl" $ magicDice 30
+    writeSTL 1 "dice.stl" $ magicDice 30

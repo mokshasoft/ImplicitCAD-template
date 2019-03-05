@@ -19,5 +19,5 @@ createSpiral l = extrudeRM 0 (Just id) Nothing Nothing (createIntersection l) (L
 
 runDoubleSpiral :: IO ()
 runDoubleSpiral = do
-    writeSVG 2 "helloworld.svg" $ createIntersection 30
-    writeSTL 1 "helloworld.stl" $ createSpiral 30
+    writeSVG 2 "doublespiral.svg" $ createIntersection 30
+    writeSTL 1 "doublespiral.stl" $ createSpiral 30
